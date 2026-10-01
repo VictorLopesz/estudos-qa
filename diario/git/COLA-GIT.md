@@ -1,4 +1,4 @@
-# 00 · Git · GitHub · GitLab
+# Cola de Git (histórico do dia 01/10/2026 — o tema saiu do plano de estudos)
 
 ## Objetivo
 Dominar o fluxo de trabalho com Git no dia a dia de QA: commits, branches, PR/MR, code review e desfazer com segurança.

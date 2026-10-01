@@ -3,14 +3,17 @@
 ## Objetivo
 Testes E2E estáveis e bem organizados: Page Objects, custom commands tipados, cy.session, cy.intercept, fixtures, dados com Faker, sem esperas fixas.
 
-## 🎯 Aplicação: [front.serverest.dev](https://front.serverest.dev)
+## 🎯 Aplicações
+- [front.serverest.dev](https://front.serverest.dev) — testes de tela
+- `../01-sql/api-loja` — testes de API conferindo no MySQL com `cy.task` + `mysql2`
 
 ## 📂 Estrutura (quando criar o projeto)
 - `cypress/e2e/` — specs: só fluxo e validações
 - `cypress/pages/` — Page Objects (seletores e ações)
 - `cypress/support/commands.ts` + `index.d.ts` — custom commands tipados
 - `cypress/fixtures/` — massa de dados e mocks
-- `cypress.env.json` — credenciais (fora do git)
+- `cypress.config.ts` — task `queryDb` (consultas no MySQL rodam no Node)
+- `cypress.env.json` — credenciais do site e do banco (fora do git)
 
 ## 📐 Regras do projeto
 - Seletores estáveis (`data-cy`, `data-testid`); nada de seletor solto nos specs
