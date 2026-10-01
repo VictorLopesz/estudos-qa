@@ -8,9 +8,9 @@ Dominar o fluxo de trabalho com Git no dia a dia de QA: commits, branches, PR/MR
 
 | Comando | Para que serve |
 |---|---|
-| `git status` | |
-| `git add` | |
-| `git commit -m "..."` | |
+| `git status` | Mostra quais arquivos mudaram e quais estão no staging |
+| `git add` | Leva o arquivo para a área de preparação |
+| `git commit -m "..."` | Salva uma "foto" das alterações no histórico local |
 
 ## ✅ O que aprendi
 -
