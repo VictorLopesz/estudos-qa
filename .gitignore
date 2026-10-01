@@ -1,0 +1,25 @@
+# Dependências
+node_modules/
+
+# Segredos — NUNCA commitar
+.env
+*.env
+!.env.example
+cypress.env.json
+**/postman/*secret*
+
+# Relatórios e artefatos de teste
+cypress/videos/
+cypress/screenshots/
+**/cypress/videos/
+**/cypress/screenshots/
+reports/
+newman/
+mochawesome-report/
+allure-results/
+allure-report/
+
+# Sistema / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
